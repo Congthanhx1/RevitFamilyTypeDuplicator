@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0"
+                    AutodeskProduct="Revit"
+                    Name="CopyFam"
+                    Description="Duplicate and batch-rename Revit Family Types"
+                    AppVersion="1.0.0"
+                    ProductCode="{B990B959-ED62-47AF-8A85-1FC77E469589}"
+                    UpgradeCode="{F3053761-1880-473A-ADAC-A610341772E4}">
+  <CompanyDetails Name="Cong Thanh Lam"
+                  Url="https://github.com/Congthanhx1/RevitFamilyTypeDuplicator"
+                  Email="thanhtklam990@gmail.com" />
+  <Components Description="CopyFam for Revit 2027">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2027" SeriesMax="R2027" />
+    <ComponentEntry AppName="CopyFam"
+                    Version="1.0.0"
+                    ModuleName="./Contents/2027/CopyFam.addin"
+                    AppDescription="Duplicate and batch-rename Family Types" />
+  </Components>
+</ApplicationPackage>

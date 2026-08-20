@@ -49,7 +49,7 @@ Open PowerShell in the repository directory:
 %APPDATA%\Autodesk\Revit\Addins\<RevitVersion>
 ```
 
-Restart Revit, then open the **CopyFam** ribbon tab.
+Restart Revit, then open the **Add-Ins** tab and locate the **CopyFam** panel.
 
 ## Usage
 
@@ -86,7 +86,20 @@ Install.ps1                    Install version-specific manifests
 
 - Close Revit before rebuilding or replacing a loaded DLL.
 - The screenshot is an interface mockup; Family and Type names depend on the active Revit project.
+- [Help](docs/HELP.md) · [Privacy Policy](PRIVACY.md) · [License](LICENSE.md)
+
+## Autodesk App Store package
+
+Run the following command to build the Revit 2027 Marketplace bundle:
+
+```powershell
+.\Build-Marketplace.ps1
+```
+
+The generated archive is placed under `dist/`. See the [submission checklist](Marketplace/SUBMISSION_CHECKLIST.md) before submitting it to Autodesk.
 
 ## License
 
-No license has been specified yet.
+Copyright © 2026 Cong Thanh Lam. See [LICENSE.md](LICENSE.md).
+
+Support: [thanhtklam990@gmail.com](mailto:thanhtklam990@gmail.com)
