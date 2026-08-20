@@ -19,7 +19,7 @@ foreach ($version in $supportedVersions) {
     <AddInId>86C08E54-C47B-4D81-8B20-538BF8239088</AddInId>
     <FullClassName>CopyFam.App</FullClassName>
     <VendorId>LOCAL</VendorId>
-    <VendorDescription>Copy và đặt tên Family Type hàng loạt</VendorDescription>
+    <VendorDescription>Cong Thanh Lam — thanhtklam990@gmail.com</VendorDescription>
   </AddIn>
 </RevitAddIns>
 "@

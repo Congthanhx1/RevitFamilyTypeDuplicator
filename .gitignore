@@ -5,3 +5,7 @@ obj/
 *.suo
 *.cache
 *.log
+dist/
+.release-*/
+*.zip
+Resources/CopyFam-icon-source.png

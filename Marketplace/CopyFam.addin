@@ -2,10 +2,10 @@
 <RevitAddIns>
   <AddIn Type="Application">
     <Name>CopyFam</Name>
-    <Assembly>D:\DLL\Copyfam\bin\Release\2027\CopyFam.dll</Assembly>
+    <Assembly>CopyFam.dll</Assembly>
     <AddInId>86C08E54-C47B-4D81-8B20-538BF8239088</AddInId>
     <FullClassName>CopyFam.App</FullClassName>
-    <VendorId>LOCAL</VendorId>
+    <VendorId>CTHX</VendorId>
     <VendorDescription>Cong Thanh Lam — thanhtklam990@gmail.com</VendorDescription>
   </AddIn>
 </RevitAddIns>

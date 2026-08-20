@@ -23,4 +23,8 @@
       <Private>false</Private>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\CopyFam-16.png" />
+    <Resource Include="Resources\CopyFam-32.png" />
+  </ItemGroup>
 </Project>
